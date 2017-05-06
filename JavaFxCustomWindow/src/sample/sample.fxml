@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<Pane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="5.0" minWidth="5.0" prefHeight="550.0" prefWidth="770.0" style="-fx-background-color: #e0f2f1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane fx:id="headerPane" prefHeight="38.0" prefWidth="770.0" style="-fx-background-color: #555555;">
+         <children>
+            <JFXButton fx:id="close" buttonType="RAISED" layoutX="741.0" layoutY="12.0" prefHeight="5.0" prefWidth="5.0" style="-fx-background-color: #ff1744; -fx-background-radius: 15; -fx-min-width: 15; -fx-min-height: 15;" textFill="WHITE" />
+            <JFXButton fx:id="minimize" buttonType="RAISED" layoutX="717.0" layoutY="12.0" prefHeight="5.0" prefWidth="5.0" style="-fx-background-color: #ffea00; -fx-background-radius: 15; -fx-min-width: 15; -fx-min-height: 15;" textFill="WHITE" />
+            <ImageView fitHeight="29.0" fitWidth="31.0" layoutX="5.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@flower.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+   </children>
+</Pane>
